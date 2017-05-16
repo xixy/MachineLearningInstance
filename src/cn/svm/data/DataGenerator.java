@@ -15,8 +15,6 @@ import java.util.Random;
  *
  */
 public class DataGenerator {
-	public static Map<Float, Float> class1Data = new HashMap<Float, Float>();
-	public static Map<Float, Float> class2Data = new HashMap<Float, Float>();
 
 	public static void generateData() throws IOException {
 		File file = new File("resources/trainfile/trainData");
